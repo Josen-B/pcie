@@ -13,8 +13,13 @@ categories = ["embedded", "no-std"]
 [dependencies]
 log = "0.4"
 bit_field = "0.10"
+mbarrier = "0.1"
 bitflags = "2"
 pci_types = "0.10"
+trait-ffi = "0.1"
+tock-registers = "0.10"
+futures = {version = "0.3", default-features = false}
+thiserror = {version = "2.0", default-features = false}
 
 [dev-dependencies]
 bare-test = "0.4.1"
